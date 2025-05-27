@@ -94,7 +94,7 @@ fruit_sales
 
 ## 3.
 
-Create a variable `ingredients` with a Series that looks like:
+Membuat variabel `ingredients` dengan Series yang terlihat seperti:
 
 ```
 Flour     4 cups
@@ -124,11 +124,11 @@ ingredients
 
 ## 4.
 
-Read the following csv dataset of wine reviews into a DataFrame called `reviews`:
+Baca kumpulan data csv ulasan anggur berikut ke dalam DataFrame bernama `reviews`:
 
 ![](74RCZtU.png)
 
-The filepath to the csv file is `../input/wine-reviews/winemag-data_first150k.csv`. The first few lines look like:
+Jalur file ke file csv adalah `../input/wine-reviews/winemag-data_first150k.csv`. Beberapa baris pertama terlihat seperti:
 
 ```
 ,country,description,designation,points,price,province,region_1,region_2,variety,winery
@@ -275,7 +275,7 @@ animals
 
 
 
-In the cell below, write code to save this DataFrame to disk as a csv file with the name `cows_and_goats.csv`.
+Pada sel di bawah ini, tulis kode untuk menyimpan DataFrame ini ke disk sebagai file csv dengan nama `cows_and_goats.csv`.
 
 
 ```python
