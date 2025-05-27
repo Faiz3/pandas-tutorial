@@ -18,7 +18,7 @@ Pada sel di bawah ini, buatlah DataFrame `buah` yang terlihat seperti ini:
 
 ```python
 # Kode Anda ada di sini. Buat sebuah dataframe yang sesuai dengan diagram di atas dan tetapkan ke variabel buah.
-fruits = pd.DataFrame({'Apple':[30],'Bananas':[21]})
+fruits = ___
 ```
 
 
@@ -26,7 +26,7 @@ fruits = pd.DataFrame({'Apple':[30],'Bananas':[21]})
 fruits
 ```
 
-
+output:
 
 
 <div>
@@ -58,12 +58,12 @@ Buatlah sebuah dataframe `fruit_sales` yang sesuai dengan diagram di bawah ini:
 
 
 ```python
-fruit_sales = pd.DataFrame({'Apples':[35,41], 'Bananas':[21,34]}, index=['2017 Sales', '2018 Sales'])
+fruit_sales = ___
 
 fruit_sales
 ```
 
-
+output:
 
 
 <div>
@@ -106,11 +106,11 @@ Name: Dinner, dtype: object
 
 
 ```python
-ingredients = pd.Series(['4 cups', '1 cups', '2 large', '1 can'], index=['Flour', 'Milk', 'Eggs', 'Spam'], name='Dinnner')
+ingredients = ___
 
 ingredients
 ```
-
+output:
 
 
 
@@ -138,12 +138,12 @@ Jalur file ke file csv adalah `../input/wine-reviews/winemag-data_first150k.csv`
 
 
 ```python
-reviews = pd.read_csv('../winemag-data_first150k.csv', index_col=0)
+reviews = ___
 
 reviews
 ```
 
-
+output:
 
 
 <div>
@@ -242,11 +242,11 @@ Jalankan sel di bawah ini untuk membuat dan menampilkan DataFrame bernama `anima
 
 
 ```python
-animals = pd.DataFrame({'Cows': [12, 20], 'Goats': [22, 19]}, index=['Year 1', 'Year 2'])
+animals = ___
 animals
 ```
 
-
+output:
 
 
 <div>
