@@ -134,7 +134,7 @@ Pilih kolom `description` dari `reviews` dan tetapkan hasilnya ke variabel `desc
 
 ```python
 # Kode Anda di sini
-desc = reviews.description
+desc = ___
 ```
 
 Pertanyaan lanjutan: jenis objek apa yang dimaksud dengan `desc`? Jika Anda tidak yakin, Anda bisa memeriksanya dengan memanggil fungsi `type` Python: `type(desc)`.
@@ -153,12 +153,12 @@ Pilih nilai pertama dari kolom deskripsi dari `reviews`, tetapkan ke variabel `f
 
 
 ```python
-first_description = desc.iloc[0]
+first_description = ___
 
 first_description
 ```
 
-
+output:
 
 
     "Aromas include tropical fruit, broom, brimstone and dried herb. The palate isn't overly expressive, offering unripened apple, citrus and dried sage alongside brisk acidity."
@@ -171,12 +171,12 @@ Pilih baris pertama data (record pertama) dari `reviews`, tetapkan ke variabel `
 
 
 ```python
-first_row = reviews.iloc[0]
+first_row = ___
 
 first_row
 ```
 
-
+output:
 
 
     country                                                    Italy
@@ -196,12 +196,12 @@ Petunjuk: format keluaran Anda sebagai sebuah Series pandas.
 
 
 ```python
-first_descriptions = reviews.description.iloc[:10]
+first_descriptions = ___
 
 first_descriptions
 ```
 
-
+output:
 
 
     0    Aromas include tropical fruit, broom, brimston...
@@ -223,12 +223,12 @@ Dengan kata lain, buatlah DataFrame berikut ini:
 
 
 ```python
-sample_reviews = reviews.iloc[[1,2,3,5,8]]
+sample_reviews = ___
 
 sample_reviews
 ```
 
-
+output:
 
 
 <div>
@@ -346,12 +346,12 @@ Buat variabel `df` yang berisi kolom `negara`, `provinsi`, `wilayah_1`, dan `wil
 
 
 ```python
-df = reviews.loc[[0,1,10,100],['country', 'province','region_1','region_2']]
+df = ___
 
 df
 ```
 
-
+output:
 
 
 <div>
@@ -413,12 +413,12 @@ Sementara itu, `loc` mengindeks secara inklusif.
 
 
 ```python
-df = reviews.loc[:99,['country','variety']]
+df = ___
 
 df
 ```
 
-
+output:
 
 
 <div>
@@ -469,11 +469,11 @@ Buat DataFrame `italian_wines` yang berisi ulasan tentang anggur yang dibuat di 
 
 
 ```python
-italian_wines = reviews.loc[reviews.country=='Italy']
+italian_wines = ___
 italian_wines
 ```
 
-
+output:
 
 
 <div>
@@ -590,14 +590,12 @@ Buat DataFrame `top_oceania_wines` yang berisi semua ulasan dengan setidaknya 95
 
 
 ```python
-top_oceania_wines = reviews.loc[(reviews.country.isin(['Australia', 'New Zealand']))
-    & (reviews.points >= 95)
-]
+top_oceania_wines = # isi disini
 
 top_oceania_wines
 ```
 
-
+output:
 
 
 <div>
